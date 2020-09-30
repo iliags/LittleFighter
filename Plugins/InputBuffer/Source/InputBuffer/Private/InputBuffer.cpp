@@ -1,8 +1,10 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright 2018 Isaac Hsu.
 
 #include "InputBuffer.h"
 
-#define LOCTEXT_NAMESPACE "FInputBufferModule"
+#define LOCTEXT_NAMESPACE "InputBuffer"
+
+DEFINE_LOG_CATEGORY(InputBufferLog)
 
 void FInputBufferModule::StartupModule()
 {

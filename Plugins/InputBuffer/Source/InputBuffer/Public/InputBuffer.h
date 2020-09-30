@@ -1,9 +1,10 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright 2018 Isaac Hsu.
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
+
+DECLARE_LOG_CATEGORY_EXTERN(InputBufferLog, Log, All);
 
 class FInputBufferModule : public IModuleInterface
 {
